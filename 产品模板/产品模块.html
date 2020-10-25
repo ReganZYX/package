@@ -1,0 +1,66 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>产品模块</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            background-color: #f5f5f5;
+        }
+        .box {
+            width: 292px;
+            height: 424px;
+            background-color: #fff;
+            /* 让块级盒子水平居中对齐 */
+            margin: 100px auto;
+        }
+        .box img {
+            /* 图片的宽度和父亲一样宽 */
+            width: 100%;
+        }
+        .review {
+            font-size: 14px;
+            height: 21px;
+            /* 因为这个段落没有ｗｉｄｔｈ属性所以ｐａｄｄｉｎｇ不会撑开盒子的宽度 */
+            padding: 0 50px;
+            margin-top: 20px;
+        }
+        .appraise {
+            font-size: 12px;
+            color: #b0b0b0;
+            margin-top: 12px;
+            padding: 0 70px;
+        }
+        .info h4 {
+            display :inline-block;
+            font-weight: 400;
+            color: #faa36c;
+        }
+        .info {
+            font-size: 14px;
+            margin-top: 10px;
+            padding: 0 115px;
+        }
+        .info span {
+            color: #afafaf;
+            text-decoration: line-through;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <img src="images/box.jpg">
+        <p class="review">小米真无线蓝牙耳机Air 2 白色</p>
+        <div class="appraise">智能真无线，轻松舒适戴</div>
+        <div class="info">
+            <h4>299元</h4>
+            <span>399元</span>
+        </div>
+    </div>
+</body>
+</html>
